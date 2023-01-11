@@ -1,5 +1,6 @@
 import { useCounter } from "../hooks/useCounter"
 import { Practica } from "../Practica";
+import {AreaRectangulo} from "./AreaRectangulo";
 import { ConversorGrados } from "./ConversorGrados";
 
 export const CounterWithCustomHook = () => {
@@ -19,6 +20,7 @@ export const CounterWithCustomHook = () => {
         {/* Practica */}
         <Practica/>
         <ConversorGrados/>
+        <AreaRectangulo/>
     </>
   )
 }
